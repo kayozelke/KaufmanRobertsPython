@@ -50,12 +50,13 @@ def calc_all(M,V,a,t):
 
 M=2
 V=3
-t=[1,2]
+t=[[1, 2]]
 a=[[0.4,1], [1, 2]]
 
 for item in a:
-    print("#### M:", M)
-    print("#### V:", V)
-    print("#### a:", item)
-    print("#### t:", t)
-    calc_all(M,V,item,t)
+    for item2 in t:
+        print("#### M:", M)
+        print("#### V:", V)
+        print("#### a:", item)
+        print("#### t:", item2)
+        calc_all(M,V,item,item2)
