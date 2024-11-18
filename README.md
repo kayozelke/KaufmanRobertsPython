@@ -37,3 +37,7 @@ The Kaufman-Roberts algorithm is commonly used for blocking probability calculat
            print("#### a:", item)
            print("#### t:", item2)
            calc_all(M, V, item, item2)
+   ```
+# Theory in polish
+![image](https://github.com/user-attachments/assets/57f17814-163d-4084-9497-f1b71e2813dc)
+
